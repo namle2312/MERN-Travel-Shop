@@ -55,6 +55,7 @@ const Tours = () => {
                                     <Col
                                         lg='3'
                                         className='mb-4'
+                                        md='6' sm='6'
                                         key={tour._id}>
                                         <TourCard tour={tour} />
                                     </Col>))
